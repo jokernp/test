@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>establish table</title>
+</head>
+<style type="text/css">
+*{
+  margin:0px;
+  padding:0px;
+}
+table{
+	margin:200px auto;
+}
+table td{
+	width:70px;
+	height:20px;
+}
+.tr_one{
+	background-color: #CC3467;
+}
+.center{
+	background-color:pink;
+}
+</style>
+<script type="text/javascript">
+	function fun(){
+		var aud=document.getElementById("faded");
+		var a="./song/faded.mp3";
+		aud.setAttribute("src",a);
+        /*_this.setAttribute("href",a);*/
+	}
+</script>
+<body>
+	<table border="1">
+		<tr class="tr_one">
+			<td colspan="7">光良 --> 光芒</td>
+		</tr>
+		<tr class="center">
+			<td>编号</td>
+			<td colspan="2">歌曲名称</td>
+			<td colspan="2">在线播放</td>
+			<td colspan="2">播放计数</td>
+		</tr>
+		<tr class="center">
+            <td>1</td>
+			<td colspan="2">faded</td>
+			<td colspan="2"><a href="#" onclick="fun();return false;">播放<a></td>
+			<td colspan="2">666</td>
+		</tr>
+		<tr class="center">
+			<td>2</td>
+			<td colspan="2">光</td>
+			<td colspan="2"><a href="#">播放<a></td>
+			<td colspan="2">666</td>
+		</tr>
+		<tr class="center">
+			<td>3</td>
+			<td colspan="2">hey</td>
+			<td colspan="2"><a href="#">播放<a></td>
+			<td colspan="2">666</td>
+		</tr>
+		<tr class="center">
+			<td>4</td>
+			<td colspan="2">心甘情愿</td>
+			<td colspan="2"><a href="#">播放<a></td>
+			<td colspan="2">666</td>
+		</tr>
+	</table>
+	<div class="footer">
+	<audio id="faded" autoplay="autoplay" >大家好</audio>
+	</div>
+</body>
+</html>
