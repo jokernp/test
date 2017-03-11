@@ -1,0 +1,33 @@
+.menus
+{
+}
+.menu ul
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+width: 400px;
+}
+.menu li
+{
+
+height: 30px;
+margin-left:25px;
+}
+.menu a, .menu a:visited
+{
+display: block;
+text-decoration: none;
+height: 25px;
+line-height: 30px;
+width: 160px;
+color: #000;
+text-indent: 5px;
+border: 1px solid #fff;
+border-width: 0 1px 1px 0;
+}
+.menu a:hover
+{
+color: #fff;
+background: #949e7c;
+}
